@@ -16,4 +16,10 @@ public class HelloWorld {
     public void printHello() {
         LOG.info("Hello ! " + name);
     }
+
+    public String getHello() {
+        LOG.info("Hello ! " + name);
+        return "Hello ! " + name;
+    }
+
 }
